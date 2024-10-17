@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(93, 92, 92);
+            padding: 3px;
+            box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.429) ;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px;
+            box-shadow: 5px 3px 6px rgba(0, 0, 0, 0.459);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 25px;
+        }
+
+        article > aside {
+            background-color: grey;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        #bola {
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+            background-color: wheat;
+            border-radius: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twich</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Dia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti iste est hic ratione doloribus distinctio vitae magni, ducimus dolores numquam, dolore nisi. Debitis, enim dolorum. Iste quaerat quidem quisquam id! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates distinctio quam perspiciatis nam nisi? Ipsam, suscipit dolore nihil, facere, nobis facilis distinctio aliquam asperiores accusantium atque architecto ipsa dicta. Quia?</p>
+                <aside>
+                    <p>
+                    Artigo escrito pelo João da Silva
+                    </p>
+                </aside>
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Curso em Vídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
